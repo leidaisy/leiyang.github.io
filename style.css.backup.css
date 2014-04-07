@@ -1,0 +1,138 @@
+nav ul 
+{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  position: fixed;
+  /* By default, browsers apply padding-left and styles each list item
+     to the ul element with bullets. We're stripping that away here. */
+}
+
+nav ul li 
+{
+  display: block;
+  height: 60px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  padding: 0.5em 1em;
+  /* In style.css we applied the padding to li. But by applying the
+     padding to our 'a' element, we've created a bigger clickable
+     area - - good for Fitts' Law! */
+
+  background: #eee;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* We've also shifted our visual styling here so it, too, adds to
+     the area of the element. */
+}
+
+
+nav ul li a:hover 
+{
+  background: #025D8C;
+  color: #fff;
+}
+
+div h1 p
+{
+  position: relative;
+
+}
+#boxes {
+  position: relative;
+  border: 5px solid #ccc;
+}
+
+#picture, #contact
+{
+  height: 100px;
+  width: 100px;
+  padding: 16px; /* 1em */
+  margin: 16px; /* 1em */
+}
+
+#picture {
+  background: rgb(248,0,0);
+  float: left;
+}
+
+#contact {
+  background: rgb(0,248,0);
+  float: left;
+}
+
+
+/* #aboutme,
+#article
+ {
+  /* We give our containing block a little room with a top margin, then
+     let the browser handle the side margins. */
+  
+ /* margin: 2em auto;
+
+  /* But do do this, we need to establish a width so the browser can 
+     create those 'auto' margins we are looking for! */
+  /*width: 600px;
+}
+
+#aboutme {
+  /* We give our containing block a little room with a top margin, then
+     let the browser handle the side margins. */
+  /*margin: 2em auto;
+
+  /* But do do this, we need to establish a width so the browser can 
+     create those 'auto' margins we are looking for! */
+  /* width: 600px;
+}
+
+
+.picture { 
+position: relative; 
+right:5px; 
+}
+
+
+.article
+{
+	position: relative;right; 
+}
+  /* The blockquote element adds a big margin by default. Maybe we
+     don't want it to look that way. But it is a quote, so we should be
+     using this element to /describe/ our content. 
+
+     We can always overwrite browser defaults with CSS. Let's modify
+     the blockquote's margin.
+
+  */
+
+ /* margin: 0;
+  margin-top: 1em;
+
+  /*  What we've done here is reset the margin to 0 and then applied the
+     margin we want. We could have also done it the shorthand way:
+
+     margin: 1em 0 0 0;
+  
+     The shorthand way is probably better. (But I wanted to demonstrate
+     that it is possible to reset default browser styles and rewrite 
+     them - - as you might have learned from this example, if you have
+     properties that are the same, the one lower in the document takes
+     precedence!
+  */
+
+ /* text-align: right;
+  font-size: smaller;
+
+}
+h2 {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+
