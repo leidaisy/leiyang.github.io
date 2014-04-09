@@ -1,0 +1,36 @@
+img.desaturate { filter: grayscale{100%); } 
+
+h1
+{
+	font-family: times;
+	font-size: 24pt;
+	color: #000;
+}
+
+nav ul li {
+display: none;
+}
+
+body header p 
+ {  
+ font-family: times;	
+ width: 100%;
+ }
+
+h2 
+{
+font-family: times;
+font-size: 20pt; 
+color: #000;
+}
+
+
+#container p {
+font-family: "times";
+}
+
+strong {
+font-family: "times";
+font-size: 20px;
+color: #000;
+}

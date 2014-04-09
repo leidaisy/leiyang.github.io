@@ -3,13 +3,13 @@ h1{
 	font-size: 50px;
 }
 
-nav ul li {
+nav {
 font-family: "always  forever";
 font-size: 20px;
 }
 
 body header p 
- {  
+ { 
  width: 400px;
  }
 
@@ -22,9 +22,9 @@ color: maroon;
 #container p {
 font-family: "verdana";
 }
-
 strong {
 font-family: "a day in september";
 font-size: 20px;
 color:green;
 }
+

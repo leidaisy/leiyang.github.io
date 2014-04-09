@@ -1,0 +1,65 @@
+
+#picture {
+  position: left;
+  padding: 0 15px;
+  border-bottom: 10px solid #fff;
+
+}
+
+#picture {
+  float: left;
+  margin-top: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-left: 10em
+}
+
+ body header p 
+ { 
+ float: left;
+ width: 400px;
+ margin-left: 150px
+ }
+
+ #container {
+  background-color:blue;
+  position: right;
+  margin: 200px;
+
+}
+ 
+
+
+body nav ul{
+  position: fixed; top: 0;left: 0; 
+
+}
+
+
+
+/* body header p {
+  position: top left
+text-align: left;
+  text-indent: 50px;s
+}
+body header h1 
+{
+font-size: 50px
+}
+body header p
+{
+  
+
+}
+
+
+
+/*
+margin-top:100px;
+margin-bottom:100px;
+margin-right:50px;
+margin-left:50px;
+
+body {
+  margin: 10%;
+}
